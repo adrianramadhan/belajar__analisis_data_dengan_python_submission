@@ -210,4 +210,5 @@ st.write("""
 - **Monetary**: Mengukur total nilai transaksi yang dilakukan oleh pelanggan.
 Analisis ini membantu dalam memahami perilaku pelanggan dan dapat digunakan untuk strategi pemasaran yang lebih efektif.
 """)
+# Menampilkan DataFrame RFM
 st.dataframe(rfm_df)

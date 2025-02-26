@@ -1,7 +1,8 @@
 # Submission Dicoding "Belajar Analisis Data dengan Python"
 
 ## Preview
-![Bike Sharing Dashboard Streamlit Preview](https://raw.githubusercontent.com/ariniamsr/bike-sharing/main/preview.png)
+![ss-project](https://github.com/user-attachments/assets/ea0950d0-1201-4b31-b716-c389b8bcf74f)
+
 
 ## Project Analisis Data
 
@@ -41,3 +42,4 @@ Proyek ini bertujuan untuk menganalisis data penyewaan sepeda menggunakan datase
     ```bash
     streamlit run dashboard/dashboard.py
     ```
+    Atau Anda bisa mengunjungi website ini [Project Data Analytics](https://data-analyst-beginner-adrian-ramadhan.streamlit.app/)
