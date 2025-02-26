@@ -212,3 +212,5 @@ Analisis ini membantu dalam memahami perilaku pelanggan dan dapat digunakan untu
 """)
 # Menampilkan DataFrame RFM
 st.dataframe(rfm_df)
+
+st.caption('Copyright (c) Adrian 2025')
