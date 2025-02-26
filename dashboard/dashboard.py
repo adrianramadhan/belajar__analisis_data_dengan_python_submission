@@ -201,5 +201,13 @@ plt.xticks(rotation=0)
 plt.legend(title='Kategori Hari')
 st.pyplot(plt)
 
+# Menampilkan analisis RFM
 st.subheader('Analisis RFM untuk Penyewaan Sepeda')
+st.write("""
+**Analisis RFM** (Recency, Frequency, Monetary) adalah teknik yang digunakan untuk mengidentifikasi dan mengelompokkanpelanggan berdasarkan perilaku mereka. 
+- **Recency**: Mengukur seberapa baru pelanggan melakukan transaksi. Semakin kecil nilainya, semakin baru transaksi terakhir.
+- **Frequency**: Mengukur seberapa sering pelanggan melakukan transaksi dalam periode waktu tertentu.
+- **Monetary**: Mengukur total nilai transaksi yang dilakukan oleh pelanggan.
+Analisis ini membantu dalam memahami perilaku pelanggan dan dapat digunakan untuk strategi pemasaran yang lebih efektif.
+""")
 st.dataframe(rfm_df)
